@@ -12,9 +12,11 @@ public class ByteDatatype {
 
         System.out.println(255&x);
         System.out.println(255&y);
+	System.out.println(~x+1);
 
         d2b(255&x);
         d2b(255&y);
+	d2b(255&(~x+1));
 
     }
 
